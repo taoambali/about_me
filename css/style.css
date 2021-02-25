@@ -7,7 +7,6 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* line-height: 1.5; */
     font-family: 1rem;
     background-color: #b6cac2;
 }
@@ -56,10 +55,6 @@ ul {
     padding: 24px;
 }
 
-/* .about-me .left-side { */
-    /* background: orange; */
-/* } */
-
 .about-me .left-side .image {
     /* background: red; */
     background-image: url('../images/taoambali2.jpg');
@@ -68,10 +63,6 @@ ul {
     background-position: center top;
     object-fit: cover;
 }
-
-/* .about-me .left-side img {
-    width: 320px;
-} */
 
 .about-me .left-side h3 {
     /* background: green; */
@@ -88,28 +79,16 @@ ul {
 .about-me .left-side .social-icons {
     /* background: red; */
     display: flex;
-    /* padding: 24px; */
-    /* margin-right: 64px; */
-    /* justify-content:space-between; */
     align-items: center;
 }
-
-/* .about-me .left-side .social-icons .icons { */
-    /* background: blue; */
-    /* display: flex; */
-    /* justify-content: space-between; */
-
-/* }  */
 
 .about-me .left-side .social-icons .icons .icon {
     display: inline-block;
     margin-right: 18px;
-    /* border-radius: 50%; */
     /* background: green; */
 }
 
 .about-me .left-side .social-icons .icons .icon i {
-    /* padding: 8px; */
     color: #1a39c5;
     font-size: 1.5rem;
     transition: all 0.5s ease;
@@ -119,16 +98,10 @@ ul {
     color: #5a71d8;
 }
 
-
-
 .about-me .left-side .social-icons .contact {
     color: #1a39c5;
     font-weight: bold;
 }
-
-/* .about-me .right-side { */
-    /* background: blue; */
-/* } */
 
 .about-me .right-side h3 {
     /* background: green; */
