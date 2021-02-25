@@ -1,0 +1,166 @@
+/* Core style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* line-height: 1.5; */
+    font-family: 1rem;
+    background-color: #b6cac2;
+}
+
+.container {
+    max-width: 1200px;
+    /* background: green; */
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* About-me */
+.about-me {
+    padding: 2rem;
+}
+
+.about-me h1 {
+    text-align: center;
+    padding: 16px;
+    font-size: 32px;
+}
+
+.about-me .sides {
+    /* background: brown; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.about-me .left-side,
+.about-me .right-side {
+    padding: 24px;
+}
+
+/* .about-me .left-side { */
+    /* background: orange; */
+/* } */
+
+.about-me .left-side .image {
+    /* background: red; */
+    background-image: url('../images/taoambali2.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: center top;
+    object-fit: cover;
+}
+
+/* .about-me .left-side img {
+    width: 320px;
+} */
+
+.about-me .left-side h3 {
+    /* background: green; */
+    padding-top: 16px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about-me .left-side p {
+    padding: 16px 0;
+}
+
+.about-me .left-side .social-icons {
+    /* background: red; */
+    display: flex;
+    /* padding: 24px; */
+    /* margin-right: 64px; */
+    /* justify-content:space-between; */
+    align-items: center;
+}
+
+/* .about-me .left-side .social-icons .icons { */
+    /* background: blue; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+
+/* }  */
+
+.about-me .left-side .social-icons .icons .icon {
+    display: inline-block;
+    margin-right: 18px;
+    /* border-radius: 50%; */
+    /* background: green; */
+}
+
+.about-me .left-side .social-icons .icons .icon i {
+    /* padding: 8px; */
+    color: #1a39c5;
+    font-size: 1.5rem;
+    transition: all 0.5s ease;
+}
+
+.about-me .left-side .social-icons .icons .icon i:hover {
+    color: #5a71d8;
+}
+
+
+
+.about-me .left-side .social-icons .contact {
+    color: #1a39c5;
+    font-weight: bold;
+}
+
+/* .about-me .right-side { */
+    /* background: blue; */
+/* } */
+
+.about-me .right-side h3 {
+    /* background: green; */
+    padding: 16px 0; 
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about-me .right-side p {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+/* Responsive --- Media Query */
+@media screen and (max-width: 768px) {
+    
+    .about-me h1 {
+        text-align: center;
+        padding: 16px;
+        font-size: 20px;
+    }
+    
+    .about-me .sides {
+        grid-template-columns: 1fr;
+    }
+
+    .about-me .left-side,
+    .about-me .right-side {
+        padding: 0;
+    }
+
+}
+
